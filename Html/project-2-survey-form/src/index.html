@@ -1,0 +1,74 @@
+<h1 id= "title"> 
+  FreeCodeCamp Survey
+</h1>
+
+<p id="description">Thank you for thanking the time to give us feedback</p>
+
+<form id="survey-form">
+  <div class="form-control">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder= "Enter in your name" required>
+  </div>
+
+  <div class="form-control">
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder= "Enter in your email" required>
+  </div>
+
+  <div class="form-control">
+    <label for="age" id="number-label">Age</label>
+    <input type="number" id="number" placeholder= "Enter in your age" required min="1" max="99">
+  </div>
+
+  <div class="form-control">
+    <label for="role" id="role-label">What best describes your current role/status?</label>
+    <select name="" id="dropdown">
+      <option value=""></option>
+      <option value="student">Student</option>
+      <option value="full-time">Full-Time</option>
+      <option value="part-time">Part-Time</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-control">
+    <label>Would you recommend FreeCodeCamp to a friend?</label>
+    <div>
+      <label for="recommend-1"><input type="radio" id="recommend-1" name="recommend" value="Definitely"> Definitely</label>
+      <label for="recommend-2"><input type="radio" id="recommend-2" name="recommend" value="Maybe"> Maybe</label>
+      <label for="recommend-3"><input type="radio" id="recommend-3" name="recommend" value="Not Sure"> Not Sure</label>
+    </div>
+  </div>
+  
+  <div class="form-control">
+    <label>Which of the follow content do you enjoy?</label>
+    
+    <label for="enjoy-1"><input type="checkbox" name="enjoy" id="enjoy-1" value="Font-end Projects">Front-end Projects</label>
+    <label for="enjoy-2"><input type="checkbox" name="enjoy" id="enjoy-2" value="Back-end Projects">Back-end Projects</label>
+    <label for="enjoy-3"><input type="checkbox" name="enjoy" id="enjoy-3" value="Data Visualization">Data Visualization</label>
+    <label for="enjoy-4"><input type="checkbox" name="enjoy" id="enjoy-4" value="Open Source Community">Open Source Community</label>
+    <label for="enjoy-5"><input type="checkbox" name="enjoy" id="enjoy-5" value="Help Forums">Help Forums</label>
+  </div>
+  
+  <div class="form-control">
+    <label for="comments">Any comments or suggestions?</label>
+    <textarea name="comments" id="commentts" placeholder="Enter comments or suggestions here..."></textarea>
+  
+  </div>
+  
+  <button type="submit" id = "submit" value="Submit">Submit</button>
+  
+</form>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
