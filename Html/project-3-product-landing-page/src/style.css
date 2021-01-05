@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300,800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #ff8c00;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+img {
+  padding: 10px;
+  max-width: 100%;
+  background: black;
+  margin: 50px auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.container {
+  display: flex;
+  max-width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+section h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.header-left {
+  width: 60%;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.feature {
+  background: #ff8c00;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 2%;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-sizing: content-box;
+}
+
+.feature h2,
+#form-section .bg-orange h2 {
+  font-size: 20px;
+}
+
+.feature p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.feature i {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#form-section {
+  text-align: center;
+}
+
+form {
+  padding-bottom: 10px;
+}
+
+.bg-orange {
+  background-color: rgb(255, 140, 0);
+}
+
+footer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 140, 0);
+}
+
+@media btn:active body {
+  background-color: #000;
+}
