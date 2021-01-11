@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-social {
+  background-color: #aed9e0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #9197ae; /*CEE0DC DC431A B9CFD4 AFAAB9 Black 9197AE*/
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  background: #dc431a;
+}
+
+.btn-show-all {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #dc431a;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+h2,
+p {
+  color: #fff;
+}
+
+header {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1517077988722-3b02694ac5c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+header::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+header p {
+  font-size: 30px;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+footer .fa-heart {
+  color: #8b0000;
+}
+
+nav {
+  background-color: #dc431a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.projects-section {
+  text-align: center;
+  background-color: #000;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.project-image {
+  height: calc(100% - 1.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ul-social {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-social a {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 10px;
+}
