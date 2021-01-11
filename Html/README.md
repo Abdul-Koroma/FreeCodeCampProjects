@@ -1,2 +1,2 @@
 ## Responsive Web Design Projects
-![Alt text](/certification.png?raw=true "Responsive Web Design Projects Certification")
+![Alt text](https://github.com/Abdul-Koroma/FreeCodeCampProjects/blob/main/Html/certification.PNG "Responsive Web Design Projects Certification")
